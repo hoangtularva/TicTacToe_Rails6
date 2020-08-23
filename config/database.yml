@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: TicTacToe_Rails6_development
+  database: TicTacToe_Rails6
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: TicTacToe_Rails6_production
-  username: TicTacToe_Rails6
-  password: <%= ENV['TICTACTOE_RAILS6_DATABASE_PASSWORD'] %>
+  database: TicTacToe_Rails6_prodution
