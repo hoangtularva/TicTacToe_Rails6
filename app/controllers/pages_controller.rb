@@ -1,14 +1,12 @@
+# frozen_string_literal: true
+
 class PagesController < ApplicationController
   before_action :authenticate_user!, except: %i[home hiscores]
   before_action :set_stats, only: %i[game]
 
-  def home
+  def home; end
 
-  end
-
-  def game
-
-  end
+  def game; end
 
   def hiscores
     @users = User.order('wins DESC')
