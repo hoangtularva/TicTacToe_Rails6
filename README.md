@@ -1,24 +1,15 @@
-# README
+# Game TicTacToe With Rails 6 and P5JS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 2.6.3
 
-Things you may want to cover:
+* Rails version 6.0.3, 6.0.3.2
 
-* Ruby version
+* Database PostgreSQL
 
-* System dependencies
+* yarn install --check-files
 
-* Configuration
+* bundle install
 
-* Database creation
+* rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Play game
